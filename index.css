@@ -22,13 +22,12 @@ p {
     line-height: 40px;
 }
 
-#contato{
+#review{
     display: flex;
     background-image: url("./img/fundo.png");
     background-color: #fff;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Inter';
     align-items: center;
 }
 #container{
@@ -45,7 +44,6 @@ p {
 }
 
 .nome{
-    font-style: normal;
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
@@ -65,8 +63,6 @@ p {
     color: #FF463A;
 }
 .comentario{
-    font-style: normal;
-    font-weight: 400;
     font-size: clamp(16px, 1.6vw, 21px);
     line-height: 39px;
     letter-spacing: 0.015em;
@@ -75,24 +71,26 @@ p {
     width: 40vw;
     display: flex;
 }
-#review{
+.flex-start{
+    align-self: flex-start ;
+}
+#allReview{
     align-self:flex-end;
-
-    font-style: normal;
-    font-weight: 400;
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 0.015em;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: #116CFF;
 }
 h1.titulo{
-    align-self:flex-start;
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
-    color: #FFFFFF;
     margin: 0;
+    color: #116CFF;
+}
+h1.titulo.branco{
+    color: #fff;
 }
 .ourClassText{
     font-size: 20px;
@@ -101,10 +99,31 @@ h1.titulo{
 
     color: #00235C;
 }
-
+.grid.ourClass{
+    font-size: 16px;
+    line-height: 25px;
+    align-items: left;
+}
 div.ourClassHeader{
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px 10px 0px 0px;
+    border-left: 4px solid #FF463A;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#detailClass{
+    background: #116CFF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+    padding: 13px 1.42vw;
+
+    color: #FFFFFF;
 }
 
 #ourclass{
@@ -148,9 +167,10 @@ div.ourClassHeader{
 div.grid {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 20px 70px
 }
-
+div.grid.review{
+    gap: 20px 70px;
+}
 .logical-thinking {
     display: flex;
     align-items: center;
