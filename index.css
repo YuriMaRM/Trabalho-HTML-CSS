@@ -86,12 +86,33 @@ p {
     text-decoration-line: underline;
     color: #FFFFFF;
 }
-h1.tituloContato{
+h1.titulo{
     align-self:flex-start;
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
     color: #FFFFFF;
+    margin: 0;
+}
+.ourClassText{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #00235C;
+}
+
+div.ourClassHeader{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#ourclass{
+    display: flex;
+    background-color: #116CFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
 }
 .balao{
