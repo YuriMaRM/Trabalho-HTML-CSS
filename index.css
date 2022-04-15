@@ -22,6 +22,113 @@ p {
     line-height: 40px;
 }
 
+#contato{
+    display: flex;
+    background-image: url("./img/fundo.png");
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Inter';
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.3vh;
+}
+.usuario{
+    width: 64.74px;
+    height: 65.45px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.nome{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+
+    color: #00235C;
+
+    margin: 8px 0px;
+}
+.aspas{
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(24px, 2vw, 36px);
+    line-height: 39px;
+    letter-spacing: 0.015em;
+
+    color: #FF463A;
+}
+.comentario{
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(16px, 1.6vw, 21px);
+    line-height: 39px;
+    letter-spacing: 0.015em;
+}
+.card{
+    width: 40vw;
+    display: flex;
+}
+#review{
+    align-self:flex-end;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+h1.tituloContato{
+    align-self:flex-start;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.balao{
+    width: 32.2vw;
+    background: #E7F0FF;
+    padding: 24px 24px;
+    border-radius: 20px;
+}
+.balao.even{
+    background: #FFE6E5;
+}
+.triangulo{
+    margin-top: 21px;
+    border-right: 20px solid #E7F0FF;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    height: 0;
+    line-height: 0;
+    width: 0;
+    display: inline-block;
+    margin-right: -1px;
+}
+.triangulo.even{
+    border-right: 20px solid #FFE6E5;
+}
+.estrela{
+    margin-top:8px;
+}
+.triangulo.right{
+    transform:rotate(180deg);
+}
+
+div.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 70px
+}
 
 .logical-thinking {
     display: flex;
