@@ -21,21 +21,6 @@ p {
     font-size: 16px;
     line-height: 40px;
 }
-
-#review{
-    display: flex;
-    background-image: url("./img/fundo.png");
-    background-color: #fff;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 7.3vh;
-}
 .usuario{
     width: 64.74px;
     height: 65.45px;
@@ -71,6 +56,27 @@ p {
     width: 40vw;
     display: flex;
 }
+#review{
+    display: flex;
+    background-image: url("./img/fundo.png");
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#reviewContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.3vh;
+}
+h1.titulo{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0;
+    color: #116CFF;
+}
 .flex-start{
     align-self: flex-start ;
 }
@@ -83,13 +89,6 @@ p {
     line-height: 25px;
     letter-spacing: 0.015em;
     text-decoration-line: underline;
-    color: #116CFF;
-}
-h1.titulo{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 50px;
-    margin: 0;
     color: #116CFF;
 }
 h1.titulo.branco{
@@ -191,16 +190,14 @@ div.grid.review{
 }
 table{
     display:flex;
+    align-items: center;
+
 }
 table.ourClass{
     background-color: #fff;
     width: auto;
-    justify-content:space-between;
-    align-items: center;
+    min-height: 35.6vh;
     text-align: left;
-    color: #116CFF;
-}
-a.ourClassText{
     color: #116CFF;
 }
 .ourClassText{
@@ -210,13 +207,26 @@ a.ourClassText{
     text-decoration: none;
 }
 th.ourClassText{
+    padding-right: 13.15vw;
+}
+tr{
+    min-height: 9vh;
+}
+th.ourClassText{
     text-align: left;
+    padding-left: 1.7vw;
 }
 .grid.ourClass{
     font-size: 16px;
     line-height: 25px;
     align-items: left;
     gap: 0 2vw;
+}
+.price{
+    color: #00235C;
+}
+.price.free{
+    color: #FF463A;
 }
 div.ourClassHeader{
     background: rgba(255, 255, 255, 0.8);
