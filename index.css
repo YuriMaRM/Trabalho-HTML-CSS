@@ -8,15 +8,15 @@ body {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
 }
-
 h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
+    margin:0;
+    
 }
-
 p {
     font-size: 16px;
     line-height: 40px;
@@ -74,6 +74,9 @@ p {
 .flex-start{
     align-self: flex-start ;
 }
+.flex-end{
+    align-self: flex-end ;
+}
 #allReview{
     align-self:flex-end;
     font-size: 21px;
@@ -92,27 +95,6 @@ h1.titulo{
 h1.titulo.branco{
     color: #fff;
 }
-.ourClassText{
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-
-    color: #00235C;
-}
-.grid.ourClass{
-    font-size: 16px;
-    line-height: 25px;
-    align-items: left;
-}
-div.ourClassHeader{
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px 10px 0px 0px;
-    border-left: 4px solid #FF463A;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
 #detailClass{
     background: #116CFF;
     border-radius: 10px;
@@ -132,6 +114,7 @@ div.ourClassHeader{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     margin: 0;
 }
 .balao{
@@ -205,4 +188,44 @@ div.grid.review{
 .preparing-your-kids p {
     width: 526px;
     height: 120px;
+}
+table{
+    display:flex;
+}
+table.ourClass{
+    background-color: #fff;
+    width: auto;
+    justify-content:space-between;
+    align-items: center;
+    text-align: left;
+    color: #116CFF;
+}
+a.ourClassText{
+    color: #116CFF;
+}
+.ourClassText{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+th.ourClassText{
+    text-align: left;
+}
+.grid.ourClass{
+    font-size: 16px;
+    line-height: 25px;
+    align-items: left;
+    gap: 0 2vw;
+}
+div.ourClassHeader{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+    border-left: 4px solid #FF463A;
+    padding: 1.7vw 16px;
+    width: 83.28vw;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    color: #00235C;
 }
