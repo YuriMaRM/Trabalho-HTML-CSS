@@ -323,6 +323,8 @@ label{
     width:130px;
     height:97px;
     padding-left: 12.2vw;
+    cursor: pointer;
+
 }
 div #form{
     position: relative;
