@@ -6,6 +6,11 @@ body {
     font-style: normal;
     font-weight: 400;
 }
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 section {
     min-height: 100vh;
@@ -72,10 +77,13 @@ p {
 }
 h1.titulo{
     font-weight: 700;
-    font-size: 36px;
+    font-size: clamp(24px, 2.57vw, 36px);
     line-height: 50px;
     margin: 0;
     color: #116CFF;
+}
+h1.titulo.escuro{
+    color: #00235C;
 }
 .flex-start{
     align-self: flex-start ;
@@ -238,4 +246,85 @@ div.ourClassHeader{
     align-items: center;
     display: flex;
     color: #00235C;
+}
+/* Registro */
+#register{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+
+}
+#containerRegister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1.registerTitle{
+    position: relative;
+    width:29.36vw;
+    margin: 0;
+    top: 8.25vh;
+    text-align: center;
+    display: inline-block;
+    padding-bottom:3.3vh ;
+}
+input.textInput{
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 7.15vh;
+    width: 27.1vw;
+}
+input.submit{
+    background: #116CFF;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 7.15vh;
+    width: 200px;
+    color: #fff;
+    border: none;
+}
+.register{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    gap: 35px 35px;
+    padding-top:54px;
+}
+#registerBigStar{
+    position: relative;
+    width: 63px;
+    height: 94px;
+    top: 4px;
+    right: 2vw;
+}
+#registerSmallStar{
+    position: relative;
+    width: 39.54px;
+    height: 59px;
+    top: 8vh;
+    left: 2.7vw;
+}
+label{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+}
+
+.AskTeacher{
+    position: relative;
+    width:130px;
+    height:97px;
+    padding-left: 12.2vw;
+}
+div #form{
+    position: relative;
+    left:11vw;
 }
