@@ -196,7 +196,7 @@ div.grid.review{
     width: 526px;
     height: 120px;
 }
-table{
+/* table{
     display:flex;
     align-items: center;
 
@@ -207,7 +207,7 @@ table.ourClass{
     min-height: 35.6vh;
     text-align: left;
     color: #116CFF;
-}
+} */
 .ourClassText{
     font-size: 20px;
     line-height: 30px;
@@ -282,6 +282,7 @@ input.textInput{
     width: 27.1vw;
 }
 input.submit{
+    font-weight: 600;
     background: #116CFF;
     border-radius: 10px;
     cursor: pointer;
@@ -330,4 +331,60 @@ label{
 div #form{
     position: relative;
     left:11vw;
+}
+/* Rodapé */
+footer{
+    height: 64.52vh;
+    background-color:  #00235C;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.footerRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64vw;
+}
+.footerLeft{
+    width: 36vw;
+    height: 64.52vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("./img/footerFundo.png");
+}
+.groupFooter, .footerText{
+    margin-bottom: 6.37vh;
+}
+.footerText{
+    font-weight: 500;
+    font-size:  clamp(10px, 1.15vw, 16px);;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    display:block;
+    color: #FFFFFF;
+}
+.iconFooter{
+    padding-right: 2.57vw;
+}
+.footerLeftItens{
+    position: relative;
+    left: 7.14vw;
+}
+table{
+    text-align: left;
+}
+td, th{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #116CFF;
+    padding-bottom: 6.3vh;
+    padding-left: 3.7vw;
+}
+td{
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
 }
