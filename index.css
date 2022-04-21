@@ -196,18 +196,15 @@ div.grid.review{
     width: 526px;
     height: 120px;
 }
-/* table{
-    display:flex;
-    align-items: center;
-
-}
-table.ourClass{
+.ourClassTable{
     background-color: #fff;
     width: auto;
     min-height: 35.6vh;
+    display:grid;
     text-align: left;
+    grid-template-columns: auto auto auto;
     color: #116CFF;
-} */
+}
 .ourClassText{
     font-size: 20px;
     line-height: 30px;
@@ -371,10 +368,10 @@ footer{
     position: relative;
     left: 7.14vw;
 }
-table{
+table.footer{
     text-align: left;
 }
-td, th{
+td.footer, th.footer{
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
@@ -383,7 +380,7 @@ td, th{
     padding-bottom: 6.3vh;
     padding-left: 3.7vw;
 }
-td{
+td.footer{
     font-weight: 500;
     color: #fff;
     font-size: 16px;
