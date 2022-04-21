@@ -358,7 +358,7 @@ footer{
 }
 .footerText{
     font-weight: 500;
-    font-size:  clamp(10px, 1.15vw, 16px);;
+    font-size:  clamp(10px, 1.15vw, 16px);
     line-height: 18px;
     letter-spacing: 0.02em;
     display:block;
@@ -393,9 +393,9 @@ td{
     background-color: #116CFF;    
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 div.homeText{
-    padding-left:7.14vw;
     width: 37vw;
 }
 h1.home{
@@ -413,7 +413,6 @@ p.home{
 .imgHome{
     width: 47vw;
     height: 62.1vh;
-    padding-right:9.52vw;
 }
 button{
     cursor: pointer;
@@ -436,4 +435,40 @@ button.home.second{
     color: #FFFFFF;
     background: none;
     margin-left: 1.7vw;
+    font-weight: 500;
+
+}
+a.home{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 6.57vw;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    margin-bottom: 7.1vw;
+    justify-content: center;
+    align-items: center;
+}
+.flex.column{
+    flex-direction: column;
+}
+button.loginHome{
+    font-weight: 700;
+    font-size: clamp(10px, 1.15vw, 16px);
+    line-height: 19px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #116CFF;
+    border: 0;
+    width: 7.4vw;
+    height: 5.34vh;
+    margin-left: 12.21vw;
+}
+img.home{
+    margin-right : 6.53vw;
 }
