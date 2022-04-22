@@ -203,6 +203,7 @@ div.grid.review{
     display:grid;
     text-align: left;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto 1px auto 1px auto 1px;
     color: #116CFF;
 }
 .ourClassText{
@@ -212,6 +213,13 @@ div.grid.review{
     text-align: left;
     align-self: center;
     text-decoration: none;
+}
+
+.bordaGambiarra{
+    width: auto;
+    height: 0px;
+    border: 0.5px solid #116CFF;
+    grid-column: 1/4;
 }
 div.ourClassText{
     padding-left:1.7vw;
